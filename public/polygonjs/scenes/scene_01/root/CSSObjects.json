@@ -1,0 +1,101 @@
+{
+	"type": "geo",
+	"nodes": {
+		"CSS2DObject1": {
+			"type": "CSS2DObject",
+			"params": {
+				"useIdAttrib": 1
+			},
+			"inputs": ["attribCreate1"],
+			"flags": {
+				"display": true
+			}
+		},
+		"circle1": {
+			"type": "circle",
+			"params": {
+				"radius": 4,
+				"center": [0, 0.6, 0]
+			}
+		},
+		"attribCreate1": {
+			"type": "attribCreate",
+			"params": {
+				"type": 1,
+				"name": "id",
+				"string": "CSSObject-`@ptnum`"
+			},
+			"inputs": ["circle1"]
+		}
+	},
+	"params": {
+		"CADLinearTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADAngularTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADCurveAbscissa": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADCurveTolerance": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADDisplayEdges": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADEdgesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADDisplayMeshes": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADMeshesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CADWireframe": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGFacetAngle": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGLinesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGMeshesColor": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		},
+		"CSGWireframe": {
+			"overriden_options": {
+				"callback": "{}"
+			}
+		}
+	},
+	"flags": {
+		"display": true
+	}
+}
