@@ -7,3 +7,8 @@ Created with [Polygonjs](https://polygonjs.com)
 - 3: open your browser on `http://localhost:8091`
 
 If you have any trouble installing it, the docs may be able to help: [https://polygonjs.com/docs/](https://polygonjs.com/docs/)
+
+# Load Scenes
+
+- load Scene01 (which has a single CSSObject): http://localhost:5173/?s=1
+= load Scene02 (which has a multiple CSSObjects): http://localhost:5173/?s=2
