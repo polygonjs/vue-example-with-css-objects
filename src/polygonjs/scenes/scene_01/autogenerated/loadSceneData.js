@@ -11,9 +11,9 @@ const manifest = {
     COP: "1675552563896",
     lights: "1680012487487",
     cameras: "1680012487487",
-    "cameras/cameraControls1": "1680012563989",
+    "cameras/cameraControls1": "1680013174561",
     "cameras/cameraCSSRenderer1": "1680012487487",
-    CSSObjects: "1680012563989",
+    CSSObjects: "1680013174561",
   },
   shaders: {
     "/ground/MAT/meshStandardBuilder1": {

@@ -25,7 +25,13 @@
 				"name": "id",
 				"string": "CSSObject-`@ptnum`"
 			},
-			"inputs": ["circle1"]
+			"inputs": ["add1"]
+		},
+		"add1": {
+			"type": "add",
+			"params": {
+				"position": [2.5, 1.1, 0]
+			}
 		}
 	},
 	"params": {

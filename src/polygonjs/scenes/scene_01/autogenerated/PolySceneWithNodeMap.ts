@@ -5,6 +5,7 @@ import { PolyScene } from "@polygonjs/polygonjs/dist/src/engine/scene/PolyScene"
 import { CopNetworkObjNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/obj/CopNetwork";
 import { GeoObjNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/obj/Geo";
 // sop
+import { AddSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Add";
 import { AttribCreateSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/AttribCreate";
 import { BoxSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Box";
 import { CSS2DObjectSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/CSS2DObject";
@@ -65,6 +66,7 @@ export class PolySceneWithNodeMap_scene_01 extends PolyScene {
   node(path: "/CSSObjects/CSS2DObject1"): CSS2DObjectSopNode;
   node(path: "/CSSObjects/circle1"): CircleSopNode;
   node(path: "/CSSObjects/attribCreate1"): AttribCreateSopNode;
+  node(path: "/CSSObjects/add1"): AddSopNode;
   node(
     path: string
   ): any /* we need any for now as otherwise an error occurs when adding plugins to the overloaded methods */ {
@@ -887,4 +889,15 @@ export interface PolySceneProps_scene_01 {
   "CSSObjects-attribCreate1--value4z"?: ParamValueSerializedTypeMap["float"];
   "CSSObjects-attribCreate1--value4w"?: ParamValueSerializedTypeMap["float"];
   "CSSObjects-attribCreate1--string"?: ParamValueSerializedTypeMap["string"];
+  "CSSObjects-add1--createPoint"?: ParamValueSerializedTypeMap["boolean"];
+  "CSSObjects-add1--pointsCount"?: ParamValueSerializedTypeMap["integer"];
+  "CSSObjects-add1--position"?: ParamValueSerializedTypeMap["vector3"];
+  "CSSObjects-add1--position-positionx"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--position-positiony"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--position-positionz"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--positionx"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--positiony"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--positionz"?: ParamValueSerializedTypeMap["float"];
+  "CSSObjects-add1--connectInputPoints"?: ParamValueSerializedTypeMap["boolean"];
+  "CSSObjects-add1--connectToLastPoint"?: ParamValueSerializedTypeMap["boolean"];
 }
