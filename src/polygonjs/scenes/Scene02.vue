@@ -7,7 +7,6 @@
 		/>
 		<div :style="topBarStyleObject">
 			<button @click="count++">increment</button>
-            <div>{{ CSSObjectsCountRange.length }}</div>
 			<div v-for="i of CSSObjectsCountRange" ref="vueElement">my vue element 1 ({{ count }})</div>
 		</div>
 	</div>
