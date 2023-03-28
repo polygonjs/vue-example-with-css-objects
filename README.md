@@ -11,4 +11,4 @@ If you have any trouble installing it, the docs may be able to help: [https://po
 # Load Scenes
 
 - load Scene01 (which has a single CSSObject): http://localhost:5173/?s=1
-= load Scene02 (which has a multiple CSSObjects): http://localhost:5173/?s=2
+- load Scene02 (which has a multiple CSSObjects): http://localhost:5173/?s=2
