@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import Scene01 from "./polygonjs/scenes/Scene01.vue";
+import Scene02 from "./polygonjs/scenes/Scene02.vue";
 </script>
 
 <template>
-	<Scene01 />
+	<Scene02 />
 	<a class="page-title" href="https://polygonjs.com">
 		<img class="page-title-logo" src="/polygonjs.png" />
 		<span class="page-title-text">Polygon + Vue + TS</span>

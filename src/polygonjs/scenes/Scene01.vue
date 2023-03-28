@@ -70,10 +70,13 @@ export default defineComponent({
             firstElement.appendChild(vueElement.value);
 		}
 
-		return {count
-			,sceneContainer,vueElement,
+		return {
+			count,
+			sceneContainer,
+			vueElement,
 			loadFunction,
-			onSceneReady,styleObject,
+			onSceneReady,
+			styleObject,
 			topBarStyleObject
 		};
 	},

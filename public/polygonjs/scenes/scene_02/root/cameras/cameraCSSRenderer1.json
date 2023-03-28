@@ -1,0 +1,15 @@
+{
+	"type": "cameraCSSRenderer",
+	"nodes": {
+		"CSS2DRenderer1": {
+			"type": "CSS2DRenderer"
+		}
+	},
+	"params": {
+		"node": "CSS2DRenderer1"
+	},
+	"inputs": ["cameraControls1"],
+	"flags": {
+		"display": true
+	}
+}
